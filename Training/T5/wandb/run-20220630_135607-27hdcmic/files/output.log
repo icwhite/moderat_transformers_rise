@@ -1,0 +1,16 @@
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+c:\Users\isado\anaconda3\envs\gpu1\lib\site-packages\pytorch_lightning\trainer\configuration_validator.py:117: UserWarning: When using `Trainer(accumulate_grad_batches != 1)` and overriding `LightningModule.optimizer_{step,zero_grad}`, the hooks will not be called on every batch (rather, they are called on every optimization step).
+  rank_zero_warn(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+c:\Users\isado\anaconda3\envs\gpu1\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  | Name  | Type                       | Params
+-----------------------------------------------------
+0 | model | T5ForConditionalGeneration | 142 M
+-----------------------------------------------------
+142 M     Trainable params
+0         Non-trainable params
+142 M     Total params
